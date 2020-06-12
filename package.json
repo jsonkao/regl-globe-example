@@ -1,0 +1,21 @@
+{
+  "name": "regl-globe",
+  "scripts": {
+    "dev": "parcel index.html",
+    "predeploy": "parcel build index.html --public-url .",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "gh-pages": "^3.0.0",
+    "glslify-bundle": "^5.1.1",
+    "glslify-deps": "^1.3.1",
+    "parcel-bundler": "^1.12.4"
+  },
+  "browserslist": [
+    "last 1 Chrome version"
+  ],
+  "dependencies": {
+    "regl": "^1.6.1"
+  }
+}
